@@ -16,10 +16,15 @@ object ToastTypeDecor {
         contentText: String,
         successImageDrawableResId: Int?,
         cornerRadius: Float?,
-        backgroundColor: Int?
+        backgroundColor: Int?,
+        longLengthenedToast : Boolean
     ) {
         val toast = Toast(context)
-        toast.duration = Toast.LENGTH_LONG
+        if (longLengthenedToast){
+            toast.duration = Toast.LENGTH_LONG
+        }else if (!longLengthenedToast){
+            toast.duration = Toast.LENGTH_SHORT
+        }
         val customView =
             LayoutInflater.from(context).inflate(R.layout.success_toast_layout, null)
         customView.findViewById<TextView>(R.id.success_toast_main_content).text = contentText
@@ -35,9 +40,12 @@ object ToastTypeDecor {
             customView.findViewById<LinearLayout>(R.id.success_toast_main_layout)
                 .setBackgroundColor(backgroundColor)
         }
+
         toast.view = customView
-        toast.show()
+        toast.show()//Show the Toast
 
     }
+
+
 
 }
