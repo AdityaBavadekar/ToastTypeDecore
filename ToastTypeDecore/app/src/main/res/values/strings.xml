@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToastTypeDecore</string>
+    <string name="success">Success</string>
+    <string name="success_icon_description">Success indicator Icon</string>
+</resources>
