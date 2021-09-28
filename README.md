@@ -2,7 +2,7 @@
 - A library for easy implementation of Toasts in Android with easy customisation
 
 - Success Toast
-- <img src="https://github.com/AdityaBavadekar/ToastTypeDecore/blob/main/image.png" alt="Success Toast Demo"/>
+<img src="https://github.com/AdityaBavadekar/ToastTypeDecore/blob/main/image.png" alt="Success Toast Demo"/>
 
 ## Implementation
 - Step 1. Add the JitPack repository to your build file
@@ -21,7 +21,7 @@
 	        implementation 'com.github.AdityaBavadekar:ToastTypeDecore:1.0'
 	}
 ```
-## Tag for version : [![](https://jitpack.io/v/AdityaBavadekar/ToastTypeDecore.svg)](https://jitpack.io/#AdityaBavadekar/ToastTypeDecore) Version ```1.0``` 🥇
+## Tag for version : [![](https://jitpack.io/v/AdityaBavadekar/ToastTypeDecore.svg)](https://jitpack.io/#AdityaBavadekar/ToastTypeDecore) Version ```1.1``` 🥇
 
 ## License
 
