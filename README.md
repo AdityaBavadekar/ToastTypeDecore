@@ -1,5 +1,5 @@
 # ToastTypeDecore
-To get a Git project into your build:
+- A library for easy implementation of Toasts in Android with easy customisation
 
 ## Implementation
 - Step 1. Add the JitPack repository to your build file
