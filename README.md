@@ -18,7 +18,7 @@
 - Step 2. Add the dependency
 ```
 	dependencies {
-	        implementation 'com.github.AdityaBavadekar:ToastTypeDecore:1.0'
+	        implementation 'com.github.AdityaBavadekar:ToastTypeDecore:1.1'
 	}
 ```
 ## Tag for version : [![](https://jitpack.io/v/AdityaBavadekar/ToastTypeDecore.svg)](https://jitpack.io/#AdityaBavadekar/ToastTypeDecore) Version ```1.1```
