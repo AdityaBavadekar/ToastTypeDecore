@@ -21,7 +21,7 @@
 	        implementation 'com.github.AdityaBavadekar:ToastTypeDecore:1.0'
 	}
 ```
-## Tag for version : [![](https://jitpack.io/v/AdityaBavadekar/ToastTypeDecore.svg)](https://jitpack.io/#AdityaBavadekar/ToastTypeDecore) Version ```1.1``` 🥇
+## Tag for version : [![](https://jitpack.io/v/AdityaBavadekar/ToastTypeDecore.svg)](https://jitpack.io/#AdityaBavadekar/ToastTypeDecore) Version ```1.1```
 
 ## License
 
