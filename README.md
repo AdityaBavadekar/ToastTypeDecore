@@ -1,7 +1,7 @@
 # ToastTypeDecore:copyright:
 - A library for easy implementation of Toasts in Android with easy customisation
 
-##### Latest Version : [v1.3](https://github.com/AdityaBavadekar/ToastTypeDecore/releases/tag/v1.3)
+##### Latest Version : [v1.4](https://github.com/AdityaBavadekar/ToastTypeDecore/releases/tag/v1.4)
 
 Success Toast1 | Success Toast2
 ---------------- | --------------
@@ -25,7 +25,7 @@ Success Toast1 | Success Toast2
 	}
 ```
 ## Tag for version : [![](https://jitpack.io/v/AdityaBavadekar/ToastTypeDecore.svg)](https://jitpack.io/#AdityaBavadekar/ToastTypeDecore) 
-Version 1.3
+Version 1.4
 
 ## Usage :black_nib: :
 ##### _@Params: and Syntax_
@@ -53,8 +53,8 @@ class MainActivity : AppCompatActivity() {
         ToastTypeDecore().makeSuccessToast(
         this,//Context
         "Hello, World! from ToastTypeDecore",//String main message
-        null//Int? drawable for success, `null` for Tick  default
-        null//Float? toast corner radius, `null` for default
+        null,//Int? drawable for success, `null` for Tick  default
+        null,//Float? toast corner radius, `null` for default
         Color.WHITE,//Int? background color `null` for default
         false//Boolean, `false`:short time toast, `true`:long time toast
       ) 
@@ -70,6 +70,7 @@ class MainActivity : AppCompatActivity() {
 ## License
 
 ```
+
 Copyright 2021 Aditya Bavadekar.
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
@@ -86,4 +87,5 @@ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
 WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 License for the specific language governing permissions and limitations under
 the License.
+
 ```
