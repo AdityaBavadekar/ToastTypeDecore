@@ -24,6 +24,11 @@
 ```
 ## Tag for version : [![](https://jitpack.io/v/AdityaBavadekar/ToastTypeDecore.svg)](https://jitpack.io/#AdityaBavadekar/ToastTypeDecore) Version ```1.1```
 
+## Usage :
+```kotlin
+ToastTypeDecore().showSuccessToast()
+```
+
 ## License
 
 ```
