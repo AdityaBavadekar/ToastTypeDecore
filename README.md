@@ -3,7 +3,7 @@
 
 - Success Toast
 <img src="https://github.com/AdityaBavadekar/ToastTypeDecore/blob/main/image.png" alt="Success Toast Demo"/>
-<img src="https://github.com/AdityaBavadekar/ToastTypeDecore/blob/main/Screenshot_20210928-123809_LibraryTesting.jpg" alt="Success Toast Demo"/>
+<img src="https://github.com/AdityaBavadekar/ToastTypeDecore/blob/main/20210928_161444.jpg" alt="Success Toast Demo"/>
 
 ## Implementation
 - Step 1. Add the JitPack repository to your build file
