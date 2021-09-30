@@ -24,33 +24,3 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-
-
-group = 'com.adityaamolbavadekar.toasttypedecore'
-version = '1.4'
-
-
-afterEvaluate {
-    publishing {
-        publications {
-            // Creates a Maven publication called "release".
-            release(MavenPublication) {
-                from components.release
-                groupId = 'com.adityaamolbavadekar.toasttypedecore'
-                artifactId = 'toasttypedecore'
-                version = '1.4'
-            }
-        }
-    }
-}
-
-publishing {
-    publications {
-        aditya(MavenPublication) {
-            from components.java
-            groupId 'com.adityaamolbavadekar.toasttypedecore'
-            artifactId 'toasttypedecore'
-            version '1.5'
-        }
-    }
-}
