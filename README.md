@@ -1,8 +1,10 @@
 # ToastTypeDecore:copyright:
-- A library for easy implementation of Toasts in Android with easy customisation
+
+* _A library for easy implementation of Toasts in Android with easy customisation._
 
 ##### Latest Version : [v1.4](https://github.com/AdityaBavadekar/ToastTypeDecore/releases/tag/v1.4)
 
+### Screenshots
 Success Toast1 | Success Toast2
 ---------------- | --------------
 | <img src="https://github.com/AdityaBavadekar/ToastTypeDecore/blob/main/20210928_161444.jpg" alt="Success Toast Demo"/> | <img src="https://github.com/AdityaBavadekar/ToastTypeDecore/blob/main/image.png" alt="Success Toast Demo"/> |
