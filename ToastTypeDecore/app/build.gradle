@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'maven-publish'
 apply plugin: 'kotlin-android-extensions'
 
 android {
@@ -9,8 +10,8 @@ android {
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 30
-        versionCode 1
-        versionName "v1.3"
+        versionCode 2
+        versionName "v.2.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -31,3 +32,17 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
     implementation 'androidx.cardview:cardview:1.0.0'
 }
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = "com.adityaamolbavadekar.typetoastdecore"
+            artifactId = "library"
+            version = "2.0"
+
+            from(components["java"])
+        }
+    }
+}
+
+
