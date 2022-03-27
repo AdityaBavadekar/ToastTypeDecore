@@ -60,11 +60,7 @@ class MainActivity : AppCompatActivity() {
         Color.WHITE,//Int? background color `null` for default
         false//Boolean, `false`:short time toast, `true`:long time toast
       ) 
-
-
-
     }
-    
 }
 
 ```
