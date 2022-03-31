@@ -46,6 +46,11 @@ jobs:
         run: git add .
 
 
+      # Runs a set of commands using the runners shell
+      - name: Run git username and email
+        run: |
+  git config --global user.email "adityarbavadekar@gmail.com"
+  git config --global user.name "Aditya Bavadekar "
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script2
