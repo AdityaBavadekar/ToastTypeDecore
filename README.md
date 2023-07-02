@@ -1,3 +1,5 @@
+> Note: This is a test project and is not up-to-date with latest android versions (v12) that have a system defined toast.
+
 # ToastTypeDecore:copyright:
 
 * _A library for easy implementation of Toasts in Android with easy customisation._
